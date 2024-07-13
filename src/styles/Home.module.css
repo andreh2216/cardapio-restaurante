@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-image: url('../../public/assets/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+
+    letter-spacing: 5px;
+    font-size: 46px;
+
+    color: #daa520;
+
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+ 
+    
+}
+
+.container p{
+    color: #daa520;
+    font-family: "Dancing Script", cursive;;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+
+  
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 375px){
+   
+        .container{
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            height: 200px;
+            width: 100vw;
+        }
+
+        .container h1{
+            font-size: 30px;
+        }
+ 
+        .container p {
+            font-size: 22px;
+        }
+
+ 
+
+
+}
